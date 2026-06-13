@@ -81,34 +81,31 @@ Data is refreshed automatically at configurable intervals.
 
 ## Screenshots
 
-Add screenshots here after installation.
+### Upcoming Matches
 
-Suggested screenshots:
+![Upcoming Matches](screenshots/overview.png)
 
-* Upcoming Matches
-* Favorite Team
-* Group Standings
-* Latest Results
-* Stadium Information
-* Live Match View
-
-Example:
-
-```markdown
-![Overview](screenshots/overview.png)
+### Favorite Team
 
 ![Favorite Team](screenshots/favorite-team.png)
 
-![Groups](screenshots/groups.png)
-```
+### Group Standings
 
----
+![Group Standings](screenshots/groups.png)
+
+### Latest Results
+
+![Latest Results](screenshots/results.png)
+
+### Stadium Information
+
+![Stadium Information](screenshots/stadium.png)
+```
 
 ## Installation
 
 Navigate to your MagicMirror modules folder:
 
-```bash
 cd ~/MagicMirror/modules
 ```
 
