@@ -1,2 +1,255 @@
 # MMM-WorldCup2026
-Live FIFA World Cup 2026 module for MagicMirror with fixtures, results, group standings, favorite team tracking and stadium information.
+
+A modern and feature-rich MagicMirror² module for following the FIFA World Cup 2026 in real time.
+
+Track upcoming fixtures, latest results, group standings, live matches, stadium information and your favorite team directly from your MagicMirror.
+
+The module automatically retrieves the latest World Cup data and presents it in a clean, easy-to-read interface designed specifically for MagicMirror displays.
+
+---
+
+## Features
+
+### Upcoming Matches
+
+View the next scheduled FIFA World Cup 2026 matches including:
+
+* Team names
+* National flags
+* Match dates
+
+### Favorite Team Tracking
+
+Choose any World Cup team and display:
+
+* The team's next match
+* Current group
+* Group standings
+
+Example:
+
+```javascript
+favoriteTeam: "England"
+```
+
+Supported examples:
+
+* Sweden
+* England
+* Germany
+* Brazil
+* Argentina
+* Netherlands
+* France
+* Spain
+
+Use official FIFA team names in English.
+
+### Group Standings
+
+Automatically rotates through all World Cup groups and displays:
+
+* Matches Played (MP)
+* Goal Difference (GD)
+* Points (Pts)
+
+### Latest Results
+
+Displays the ten most recent completed matches.
+
+### Stadium Information
+
+Browse all official FIFA World Cup 2026 stadiums including:
+
+* Stadium name
+* Host city
+* Host country
+* Capacity
+
+### Live Match Detection
+
+When a match is in progress the module automatically switches to a LIVE view displaying:
+
+* Current score
+* Match minute
+
+### Automatic Updates
+
+Data is refreshed automatically at configurable intervals.
+
+---
+
+## Screenshots
+
+Add screenshots here after installation.
+
+Suggested screenshots:
+
+* Upcoming Matches
+* Favorite Team
+* Group Standings
+* Latest Results
+* Stadium Information
+* Live Match View
+
+Example:
+
+```markdown
+![Overview](screenshots/overview.png)
+
+![Favorite Team](screenshots/favorite-team.png)
+
+![Groups](screenshots/groups.png)
+```
+
+---
+
+## Installation
+
+Navigate to your MagicMirror modules folder:
+
+```bash
+cd ~/MagicMirror/modules
+```
+
+Clone the repository:
+
+```bash
+git clone https://github.com/dentrass/MMM-WorldCup2026.git
+```
+
+Enter the module directory:
+
+```bash
+cd MMM-WorldCup2026
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## Configuration
+
+Add the module to your MagicMirror `config.js` file:
+
+```javascript
+{
+    module: "MMM-WorldCup2026",
+    position: "top_right",
+    config: {
+        favoriteTeam: "Sweden",
+        updateInterval: 300000,
+        rotateInterval: 20000,
+        maxMatches: 5
+    }
+}
+```
+
+---
+
+## Configuration Options
+
+| Option         | Default  | Description                                 |
+| -------------- | -------- | ------------------------------------------- |
+| favoriteTeam   | "Sweden" | Team displayed in the Favorite Team view    |
+| updateInterval | 300000   | Data refresh interval in milliseconds       |
+| rotateInterval | 20000    | Time between view rotations in milliseconds |
+| maxMatches     | 5        | Number of upcoming matches displayed        |
+
+---
+
+## Folder Structure
+
+```text
+MMM-WorldCup2026
+│
+├── MMM-WorldCup2026.js
+├── MMM-WorldCup2026.css
+├── node_helper.js
+├── package.json
+├── README.md
+├── LICENSE
+│
+└── flags/
+```
+
+---
+
+## Requirements
+
+* MagicMirror²
+* Node.js
+* Internet connection
+
+---
+
+## Dependencies
+
+```bash
+axios
+```
+
+Installed automatically via:
+
+```bash
+npm install
+```
+
+---
+
+## Data Source
+
+World Cup data is retrieved automatically from publicly available FIFA World Cup 2026 data sources.
+
+The module currently provides:
+
+* Fixtures
+* Results
+* Group standings
+* Team information
+* Stadium information
+
+No API key is required.
+
+---
+
+## Roadmap
+
+Future ideas:
+
+* Multiple favorite teams
+* Additional languages
+* Stadium photos
+* Knockout stage view
+* Match notifications
+* Custom themes
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for details.
+
+---
+
+## Support
+
+If you encounter a bug or would like to request a feature, please open an issue on GitHub:
+
+https://github.com/dentrass/MMM-WorldCup2026/issues
+
+But since the 2026 World Cup only lasts about a month and the module will become outdated quite quickly, I will not make any major changes.
+
+---
+
+## Author
+
+Dentrass
+
+Created for the MagicMirror² community.
