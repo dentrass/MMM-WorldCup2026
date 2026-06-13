@@ -1,6 +1,6 @@
 {
 "name": "mmm-worldcup2026",
-"version": "1.0.0",
+"version": "1.1.0",
 "description": "Live FIFA World Cup 2026 module for MagicMirror with fixtures, results, group standings, favorite team tracking and stadium information.",
 "main": "MMM-WorldCup2026.js",
 "author": "Johan Ornell (dentrass)",
@@ -22,8 +22,5 @@
 "bugs": {
 "url": "https://github.com/dentrass/MMM-WorldCup2026/issues"
 },
-"homepage": "https://github.com/dentrass/MMM-WorldCup2026",
-"dependencies": {
-"axios": "^1.8.4"
-}
+"homepage": "https://github.com/dentrass/MMM-WorldCup2026"
 }
