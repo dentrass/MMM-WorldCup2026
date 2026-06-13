@@ -127,6 +127,10 @@ Install dependencies:
 npm install
 ```
 
+```
+Uses the built-in Node.js Fetch API. No external HTTP libraries required.
+```
+
 ---
 
 ## Configuration
