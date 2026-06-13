@@ -241,12 +241,12 @@ If you encounter a bug or would like to request a feature, please open an issue 
 
 https://github.com/dentrass/MMM-WorldCup2026/issues
 
-But since the 2026 World Cup only lasts about a month and the module will become outdated quite quickly, I will not make any major changes.
+This project was created specifically for the FIFA World Cup 2026. While active maintenance may be limited after the tournament concludes, bug reports and suggestions are always welcome.
 
 ---
 
 ## Author
 
-Dentrass
+Johan Ornell (Dentrass)
 
 Created for the MagicMirror² community.
