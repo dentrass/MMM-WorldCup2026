@@ -214,19 +214,6 @@ No API key is required.
 
 ---
 
-## Roadmap
-
-Future ideas:
-
-* Multiple favorite teams
-* Additional languages
-* Stadium photos
-* Knockout stage view
-* Match notifications
-* Custom themes
-
----
-
 ## License
 
 This project is licensed under the MIT License.
