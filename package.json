@@ -3,7 +3,7 @@
 "version": "1.0.0",
 "description": "Live FIFA World Cup 2026 module for MagicMirror with fixtures, results, group standings, favorite team tracking and stadium information.",
 "main": "MMM-WorldCup2026.js",
-"author": "dentrass",
+"author": "Johan Ornell (dentrass)",
 "license": "MIT",
 "keywords": [
 "MagicMirror",
