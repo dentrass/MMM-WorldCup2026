@@ -12,7 +12,7 @@ The module automatically retrieves the latest World Cup data and presents it in 
 
 ### Upcoming Matches
 
-View the next scheduled FIFA World Cup 2026 matches including:
+View upcoming FIFA World Cup 2026 fixtures including:
 
 * Team names
 * National flags
@@ -22,9 +22,9 @@ View the next scheduled FIFA World Cup 2026 matches including:
 
 Choose any World Cup team and display:
 
-* The team's next match
+* The team's next scheduled match
 * Current group
-* Group standings
+* Live group standings
 
 Example:
 
@@ -47,7 +47,7 @@ Use official FIFA team names in English.
 
 ### Group Standings
 
-Automatically rotates through all World Cup groups and displays:
+Automatically rotates through all FIFA World Cup groups and displays:
 
 * Matches Played (MP)
 * Goal Difference (GD)
@@ -68,14 +68,20 @@ Browse all official FIFA World Cup 2026 stadiums including:
 
 ### Live Match Detection
 
-When a match is in progress the module automatically switches to a LIVE view displaying:
+When a match is in progress, the module automatically switches to a LIVE view displaying:
 
 * Current score
 * Match minute
 
 ### Automatic Updates
 
-Data is refreshed automatically at configurable intervals.
+World Cup data is refreshed automatically at configurable intervals.
+
+### Lightweight & Dependency-Free
+
+* Uses the built-in Node.js Fetch API
+* No external HTTP libraries required
+* No additional runtime dependencies
 
 ---
 
@@ -183,18 +189,18 @@ MMM-WorldCup2026
 ## Requirements
 
 * MagicMirror²
-* Node.js
+* Node.js 18+ (uses the built-in Fetch API)
 * Internet connection
 
 ---
 
 ## Dependencies
 
-```bash
-axios
-```
+No external HTTP libraries are required.
 
-Installed automatically via:
+The module uses the built-in Fetch API available in Node.js 18+.
+
+Install the module with:
 
 ```bash
 npm install
