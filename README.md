@@ -1,5 +1,10 @@
 # MMM-WorldCup2026
 
+> ⚠️ This project is no longer actively maintained.
+> No new features or bug fixes are planned.
+
+# MMM-WorldCup2026
+
 A modern and feature-rich MagicMirror² module for following the FIFA World Cup 2026 in real time.
 
 Track upcoming fixtures, latest results, group standings, live matches, stadium information and your favorite team directly from your MagicMirror.
